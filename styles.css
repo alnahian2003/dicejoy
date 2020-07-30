@@ -1,0 +1,110 @@
+* {
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+  background-color: #2a9d8f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+footer {
+  position: sticky;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 300;
+  margin-top: 5%;
+}
+
+/* container styling */
+.container h1 {
+  font-family: "Oswald";
+  font-size: 5rem;
+  color: rgb(255, 251, 198);
+  margin-top: 10px;
+  margin-bottom: -25px;
+  text-align: center;
+}
+
+.container h4 {
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 300;
+}
+
+/* players styling */
+.players {
+  margin: 0 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.players p {
+  font-family: "Oswald";
+  color: rgb(255, 251, 198);
+  font-size: 2rem;
+}
+
+
+
+/* Responsive Codes */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+  }
+
+  .container h4 {
+    font-size: 18px;
+  }
+
+  .players {
+    display: inline-block;
+  }
+
+  .player1 img,
+  .player2 img {
+    height: 100px;
+  }
+
+  .player1 p,
+  .player2 p {
+    font-size: 18px;
+  }
+
+  footer {
+    margin-top: 20%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
